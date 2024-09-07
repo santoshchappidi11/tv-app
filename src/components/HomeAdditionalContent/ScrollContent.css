@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 .scroll-top-img img:hover {
-  transform: scale(1.1); /* Scale the image to 110% on hover */
+  transform: scale(1.1);
 }
 
 .scroll-middle {
