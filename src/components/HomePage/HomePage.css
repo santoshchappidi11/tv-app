@@ -1,0 +1,39 @@
+.home {
+  height: 100%;
+  /* border: 5px solid black; */
+}
+
+.left-home {
+  width: 45%;
+  float: left;
+  margin-top: 18%;
+  margin-left: 5%;
+  /* border: 1px solid red; */
+}
+
+.left-content {
+  /* border: 1px solid green; */
+}
+
+.left-content h3 {
+  color: rgb(0, 195, 0);
+}
+
+.left-content p {
+  margin: 1rem 0;
+  color: white;
+}
+
+.left-button {
+  /* border: 1px solid yellow; */
+}
+
+.left-button button {
+  font-weight: 600;
+  padding: 0.9rem 2.8rem;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+  background-color: #0386eb;
+  cursor: pointer;
+}

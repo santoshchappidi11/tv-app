@@ -1,0 +1,27 @@
+.main-page {
+  height: 100vh;
+  width: 100%;
+
+  background-image: linear-gradient(
+      to right,
+      black 0%,
+      transparent 30%,
+      transparent 70%,
+      black 100%
+    ),
+    /* Left and right gradient */
+      linear-gradient(
+        to bottom,
+        black 0%,
+        transparent 30%,
+        transparent 70%,
+        black 100%
+      ),
+    /* Top and bottom gradient */
+      url("./../../Images/chewy-fGxiRXr2oZg-unsplash.jpg"); /* Image */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply; /* Ensures blending of the gradients and image */
+  border: 5px solid black;
+}
